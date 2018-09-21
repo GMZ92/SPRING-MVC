@@ -1,0 +1,6 @@
+#spring:
+#  datasource:
+#    username: Netauser
+#    password: M4t509_//*_**A
+#    url: jdbc:sqlserver://50.23.225.18;databaseName=NetaReclutamiento
+#    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
