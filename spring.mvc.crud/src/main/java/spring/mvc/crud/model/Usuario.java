@@ -1,10 +1,27 @@
 package spring.mvc.crud.model;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "Usuario")
 public class Usuario {
 
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
+	
+	@Column(name = "Nombre")
 	private String Nombre;
+	
+	@Column(name = "Ape_Paterno")
 	private String Ape_Paterno;
+	
+	@Column(name = "Ape_Materno")
 	private String Ape_Materno;
 	
 	

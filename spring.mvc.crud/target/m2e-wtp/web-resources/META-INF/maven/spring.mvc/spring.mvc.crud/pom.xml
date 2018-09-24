@@ -7,6 +7,7 @@
   
   
   <dependencies>
+  
   	<!-- Spring web MVC -->
   	<dependency>
   		<groupId>org.springframework</groupId>
@@ -14,7 +15,7 @@
   		<version>4.3.0.RELEASE</version>
   	</dependency>
 
-  	<!--  -->
+  	
   	<dependency>
   		<groupId>org.springframework</groupId>
   		<artifactId>spring-tx</artifactId>
@@ -42,6 +43,27 @@
   		<version>4.3.0.RELEASE</version>
   	</dependency> 	
   
+  	<!-- spring  -->
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-orm</artifactId>
+  		<version>4.3.0.RELEASE</version>
+  	</dependency>
+  	
+  	<!-- Hibernate -->
+  	<dependency>
+  		<groupId>org.hibernate</groupId>
+  		<artifactId>hibernate-core</artifactId>
+  		<version>4.3.10.Final</version>
+  	</dependency>
+  	
+  	<!--  -->
+  	<dependency>
+  		<groupId>javax.validation</groupId>
+  		<artifactId>validation-api</artifactId>
+  		<version>1.1.0.Final</version>
+  	</dependency>
+  	
   </dependencies>
   
   <build>

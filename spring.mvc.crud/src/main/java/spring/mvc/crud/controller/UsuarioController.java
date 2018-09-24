@@ -69,7 +69,7 @@ public class UsuarioController {
 			//add new
 			usuarioService.addUsuario(usuario);
 		}
-		return new ModelAndView("redirect:/list");
+		return new ModelAndView("redirect:/usuario/list");
 	}
 	
 	
